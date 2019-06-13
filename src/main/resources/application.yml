@@ -10,5 +10,6 @@ eureka:
     register-with-eureka: false
     service-url:
       defaultZone: http://39.106.71.119:8762/merry/,http://39.106.71.119:8763/sunny/
+    fetch-registry: false
   server:
     enable-self-preservation: false
