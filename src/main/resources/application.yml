@@ -7,9 +7,9 @@ spring:
 
 eureka:
   client:
-    register-with-eureka: false
+    register-with-eureka: true
     service-url:
       defaultZone: http://39.106.71.119:8762/eureka/,http://39.106.71.119:8763/eureka/
-    fetch-registry: false
+    fetch-registry: true
 #  server:
 #    enable-self-preservation: false
